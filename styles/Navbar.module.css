@@ -1,0 +1,69 @@
+.mainNavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    background-color: rgba(168, 170, 172, 0.438);
+    width: 100%;
+    border-bottom: 1px solid #00000025;
+}
+
+.dashboardContainer{
+    flex: 0.8;
+}
+
+.dashboardTitle{
+    font-size: 20px;
+    margin-left: 2em;
+}
+
+.searchContainer{
+    display: flex;
+    flex: 2;
+    margin-right: 9em;
+    background-color:rgba(196, 196, 196, 0.637);
+    padding: 6px;
+    border-radius: 16px;
+    border: 1px solid #33333385;
+}
+
+.searchInput{
+    width: 100%;
+    border: none;
+    padding: 3px;
+    background-color:rgba(196, 196, 196, 0.637);
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.profileContainer{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+}
+
+.notificationIcon{
+    padding: 5px;
+}
+
+.notificationIcon:hover{
+    background-color:rgba(141, 138, 138, 0.637);
+    border-radius: 6px;
+}
+
+.profileItems{
+    display: flex;
+    align-items: center;
+}
+
+.profileIcon{
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.profileName{
+    margin-left: 7px;
+    font-weight: bold;
+}

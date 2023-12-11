@@ -1,0 +1,41 @@
+.mainSidebarContainer{
+    display: grid;
+    grid-template-columns: 20em;
+    background-color: rgba(168, 170, 172, 0.438);
+}
+
+.ulContainer{
+    margin-top: 2em;
+    margin-left: 2em;
+    height: 100vh;
+}
+
+.liContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    padding: 10px;
+    width: 90%;
+    transition: 1ms;
+}
+
+.liContainer:hover{
+    background-color:rgba(190, 190, 190, 0.459);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.menu{
+    display: flex;
+    color: rgb(66,71,75);
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.itemName{
+    margin-left: 10px;
+    color: rgb(70,76,81);
+    text-decoration: none;
+}
